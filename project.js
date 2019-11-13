@@ -11,7 +11,6 @@ class Visitor{
     }
 
     save(){
-        this.count = 0;
         let jsonString = JSON.stringify(this, null, 3);
         jsonString = jsonString.replace(" ", "_");
 
